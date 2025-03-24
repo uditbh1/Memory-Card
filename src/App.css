@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(265px,1fr));
+  grid-gap: 1rem 1rem;
+  margin: 1rem;
+}

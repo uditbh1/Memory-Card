@@ -1,0 +1,13 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    width: 265px;
+    height: 265px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.card:hover{
+    background-color: grey;
+}
